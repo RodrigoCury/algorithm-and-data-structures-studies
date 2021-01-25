@@ -68,7 +68,8 @@ class Queue:
         if not self.is_empty():
             for i in self.queue:
                 string += str(i) + "\n"
-        return string
+            return string
+        return "[]"
 
 
 q = Queue()
