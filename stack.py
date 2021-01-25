@@ -1,17 +1,15 @@
-"""
-    Uma pilha é um tipo de dado abstrato muito utilizado em computação. 
-Seu nome é devido a analogia do comportamento dessa estrutura com pilhas de objetos no mundo real. 
-Considere por exemplo uma pilha de livros. 
-Um novo livro deve ser colocado no topo, assim como o primeiro livro a ser retirado deve sair do topo também.
-
-    Uma pilha (=*stack*) é uma lista dinâmica em que todas as operações (inserções, remoções e consultas)
-são feitas em uma mesma extremidade chamada de topo. 
-Portanto, em uma estrutura do tipo pilha, o último elemento que inserido é o primeiro a ser removido ou consultado. 
-Essa estrutura também é conhe(conhecido como LIFO do inglês last-in first-out).
-"""
-
-
 class Stack:  # Pilha
+    """
+        Uma pilha é um tipo de dado abstrato muito utilizado em computação. 
+    Seu nome é devido a analogia do comportamento dessa estrutura com pilhas de objetos no mundo real. 
+    Considere por exemplo uma pilha de livros. 
+    Um novo livro deve ser colocado no topo, assim como o primeiro livro a ser retirado deve sair do topo também.
+
+        Uma pilha (=*stack*) é uma lista dinâmica em que todas as operações (inserções, remoções e consultas)
+    são feitas em uma mesma extremidade chamada de topo. 
+    Portanto, em uma estrutura do tipo pilha, o último elemento que inserido é o primeiro a ser removido ou consultado. 
+    Essa estrutura também é conhe(conhecido como LIFO do inglês last-in first-out).
+    """
 
     def __init__(self):
         self.stack = []
