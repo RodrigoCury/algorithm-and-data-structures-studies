@@ -5,6 +5,7 @@ os elementos podem ser adicionados ou removidos da frente (cabeça) ou de trás 
 Também é chamada de lista encadeada cabeça-cauda, apesar de propriamente isto se referir a uma
 implementação de estrutura de dados específica. 
 """
+from collections import deque
 
 
 class Deque():
@@ -44,15 +45,26 @@ class Deque():
         return "[]"
 
 
-d = Deque()
+if __name__ == '__main__':
+    d = Deque()
 
-d.push_front(1)
-d.push_front(2)
-d.push_back(0)
-d.push_back(-1)
-d.push_back(-2)
-print(d)
-d.pop_front()
-d.pop_back()
-print(d)
-print(d)
+    d.push_front(1)
+    d.push_front(2)
+    d.push_back(0)
+    d.push_back(-1)
+    d.push_back(-2)
+    print(d)
+    d.pop_front()
+    d.pop_back()
+    print(d)
+    print(d)
+
+    q = deque()
+    q.append(1)
+    q.appendleft(2)
+    q.append(3)
+    q.appendleft(4)
+    q.popleft()
+    q.pop()
+    for i in q:
+        print(i, end="")
