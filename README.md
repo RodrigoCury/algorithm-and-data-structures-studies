@@ -1,2 +1,2 @@
 # algorithm-studies
-A repo whre i keep my agorithm and data structures studies
+A repo where i keep my agorithm and data structures studies
